@@ -1,0 +1,58 @@
+body{
+	font-family: 'verdana', serif, sans-serif;
+	font-size:14px;
+}
+
+.error{
+	color:red;
+}
+.display-none{
+	display:  none;
+}
+
+.navbar-nav.navbar-right label{
+	padding:15px;
+}
+
+#menu ul{
+	list-style: none;
+}
+
+#menu li{
+	margin: 10px 0px;
+}
+
+#menu>ul{
+	display: block;
+}
+#menu>ul ul{
+	padding-left:20px;
+	display: none;
+}
+
+#menu a:hover, #menu a:focus{
+	text-decoration: none;
+	
+}
+
+.menu-focus{
+	background:#2e2eca;
+	border: 1px solid #2e2eca;
+	border-radius: 5px;
+	padding: 5px;
+	color:white;
+}
+
+.use-case-title{
+	width:max-content; margin:auto; line-height:50px; font-weight: 700;
+}
+
+.form-tsk{
+	padding:5px;
+	font-size: 13px;
+}
+.form-group label.equal-input, .form-group div{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 34px;
+}
