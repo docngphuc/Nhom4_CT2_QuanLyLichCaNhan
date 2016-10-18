@@ -14,12 +14,12 @@
         switch(this.value){
           case '0':
           $('#luusua').click(function(){
-            document.getElementById('status').src ='img/nolock.jpg';
+            document.getElementById('status').src ='../img/nolock.jpg';
           });
           break;
           case '1':
           $('#luusua').click(function(){
-            document.getElementById('status').src='img/lock.png';
+            document.getElementById('status').src='../img/lock.png';
           });
           break;
           default:
@@ -74,7 +74,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"><b>Xin chào, Admin</b></a></li>
           <li>
-              <a href="http://localhost:8080/JWD/">Đăng xuất</a>
+              <a href="../index.jsp">Đăng xuất</a>
           </li>
         </ul>
       </div><!-- /.navbar-collapse -->
